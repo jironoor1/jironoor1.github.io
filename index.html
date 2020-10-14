@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unnamed Title</title>
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                         <li><a href="">About us</a></li>
+                         <li><a href="">Order one</a></li>
+                    </ul>
+                
+                </nav>
+            </div>
+            
+            <div class="sidebar">
+                <img src="search.png" class="search-icon">
+                <div class="social-links">
+                    <img src="fb.png">
+                    <img src="ig.png">
+                    <img src="tw.png">
+                </div>
+                <img src="info.png" class="info-icon";>
+            </div>    
+            
+                <div class="msg-container">
+                    <div id="slider">
+                        <div class="msg-col">
+                        <h1>Our Vision</h1>
+                        <p style="font-size: 20px; line-height: 150%">Our vision is to craft the brands and choice of drinks that people love, to refresh them in body and spirit. And done in ways that create a more sustainable business and better shared future that makes a difference in people’s lives, communities and our planet.</p>
+                        <a href="https://www.coca-cola.com/">Learn More</a>
+                        </div>
+                        <div class="msg-col">
+                        <h1 style="font-size: 50px;">Our Supreme Leader</h1>
+                        <p style="font-size: 20px; line-height: 150%">Our Supreme leader is Darth Jiro. He is the conquerer of all galaxies. His ultimate mission is to solve the galaxy's Fresh Water Crisis. To do this, he must explore the mists of worlds to ensure that everybody derserves the fresh feeling of Coca Cola and their subsidiaries.</p>
+                        <a href="https://www.youtube.com/watch?v=GuLcxg5VGuo">Learn More about the G.O.A.T</a>
+                        </div>
+                        <div class="msg-col">
+                        <h1 style="font-size: 50px;">SUSTAINABLE BUSINESS</h1>
+                        <p style="font-size: 20px; line-height: 150%">Our goal is to recover every bottle or can that is sold to recycle and reuse, no matter the size, shape or material.</p>
+                        <a href="https://www.youtube.com/watch?v=ALb0kH-R65w&feature=emb_title">Learn More about the environment</a>
+                        </div>
+                        <div class="msg-col">
+                        <h1 style="font-size: 50px;" >Letter from Supreme Leader</h1>
+                        <p style="font-size: 20px; line-height: 150%">Hello if you are reading this, your probably Aileen, WADDUP BRO ENJOY MY WEBSITE! Coca Cola Should actually hire me! Also click the button below</p>
+                        <a href="https://www.youtube.com/watch?v=CLh-ZnPsK9E ">Your favorite Video</a>
+                        </div>  
+                    </div>
+                </div>
+            
+            <div class="controller">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+                <div id="line4"></div>
+                <div id="active"></div>
+            
+            </div>
+            
+            <div class="bubbles">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+            
+            </div>
+        
+    
+            </div>
+      
+    <script>
+        var slider=document.getElementById('slider');
+        var active=document.getElementById('active');
+        var line1=document.getElementById('line1');
+        var line2=document.getElementById('line2');
+        var line3=document.getElementById('line3');
+        var line4=document.getElementById('line4');
+        
+        line1.onclick=function(){
+            slider.style.transform='translateX(0)';
+            active.style.top='0px';
+        }
+         line2.onclick=function(){
+            slider.style.transform='translateX(-25%)';
+             active.style.top='80px';
+        }
+          line3.onclick=function(){
+            slider.style.transform='translateX(-50%)';
+            active.style.top='160px';
+        }
+          line4.onclick=function(){
+            slider.style.transform='translateX(-75%)';
+            active.style.top='240px';
+        }
+          
+        
+    </script>
+        
+        
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
